@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -98,7 +98,52 @@ button {
     width: 200px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+.call {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.to {
+    background-color: #3882f6;
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 28px;
+    color: #f9faf8;
+}
+
+.action div {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.call-to {
+    border: 1px solid #f9faf8;
+}
 
 .footer {
     text-align: center;
