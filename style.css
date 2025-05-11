@@ -98,12 +98,18 @@ button {
     width: 200px;
 }
 
-.quote {
+.grey {
     background-color: #e5e7eb;
-    padding: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 48px;
+    width: 800px;
 }
 
 .quote p {
