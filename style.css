@@ -21,6 +21,7 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
+    padding: 25px;
 }
 
 .logo {
@@ -42,6 +43,8 @@ a {
 
 .hero {
     display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 .herotext {
@@ -49,10 +52,56 @@ a {
     flex-direction: column;
 }
 
+.awe {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.herotext p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 button {
     background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 25px;
+}
+
+.infohead {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.content {
+    display: flex;
+    gap: 15px;
+    text-wrap: wrap;
+}
+
+.infoimg {
+    width: 200px;
+}
+
+
 
 .footer {
     text-align: center;
+    color: #e5e7eb;
+    padding: 25px;
 }
