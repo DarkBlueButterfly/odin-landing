@@ -91,8 +91,9 @@ button.awe-sign {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 48px;
+    padding: 58px;
     gap: 25px;
+    margin-bottom: 50px;
 }
 
 .infohead {
@@ -109,12 +110,27 @@ button.awe-sign {
 
 .infoimg {
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoimg img {
+    width: 75%;
+    height: auto;
+    align-self: center;
+}
+
+.infoimg p {
+    margin-top: auto;
+    text-align: center;
 }
 
 .grey {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
 .quote {
@@ -129,6 +145,7 @@ button.awe-sign {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    font-weight: 300;
 }
 
 .thor {
